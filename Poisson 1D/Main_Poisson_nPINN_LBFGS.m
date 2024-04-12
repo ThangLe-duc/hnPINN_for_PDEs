@@ -15,8 +15,8 @@ L = 1;
 %% Normalized physical model
 scaleX = L;
 scaleU = k^2*pi^2*scaleX^2;
-% alpha = 1;
-alpha = 0.071;
+% alpha = 1;      % ndPINN
+alpha = 0.071;    % hnPINN
 
 %% Generate Training Data
 % Select points to enforce boundary conditions
