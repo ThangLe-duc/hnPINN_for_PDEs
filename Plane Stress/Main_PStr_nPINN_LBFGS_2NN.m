@@ -19,8 +19,8 @@ scaleX = a;
 scaleY = b;
 scaleU = (1-muy^2)*scaleX^2/E;
 scaleV = (1-muy^2)*scaleY^2/E;
-% alpha_u = 1; alpha_v = 1;
-alpha_u = 0.01; alpha_v = 0.01;
+% alpha_u = 1; alpha_v = 1;        % ndPINN
+alpha_u = 0.01; alpha_v = 0.01;    % hnPINN
 
 %% Generate Training Data
 numBCPoints = [50 50];
