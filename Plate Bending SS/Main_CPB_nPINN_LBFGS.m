@@ -19,8 +19,8 @@ D = E*h^3/(12*(1-muy^2));
 scaleX = a;
 scaleY = b;
 scaleU = q0*scaleX^2*scaleY^2/D;
-% alpha = 1;
-alpha = 0.001;
+% alpha = 1;      % ndPINN
+alpha = 0.001;    % hnPINN
 
 %% Generate Training Data
 % Select points along x to enforce each of the boundary conditions
