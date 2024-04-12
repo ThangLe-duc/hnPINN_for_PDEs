@@ -17,8 +17,8 @@ P = 50;
 %% Normalized physical model
 scaleX = L;
 scaleU = scaleX^2/(E*A);
-% alpha = 1;
-alpha = max(g*A, abs(-P*scaleX/(E*A*scaleU)));
+% alpha = 1;                                      % ndPINN
+alpha = max(g*A, abs(-P*scaleX/(E*A*scaleU)));    % hnPINN
 
 %% Generate Training Data
 % Select points to enforce boundary conditions
