@@ -17,8 +17,8 @@ q0IC = -5;
 %% Normalized physical model
 scaleX = L;
 scaleU = 4*q0*scaleX^2/E;
-% alpha = 1;
-alpha = 10;
+% alpha = 1;    % ndPINN
+alpha = 10;     % hnPINN
 
 %% Generate Training Data
 % Select points to enforce boundary conditions
