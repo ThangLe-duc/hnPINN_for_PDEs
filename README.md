@@ -9,4 +9,4 @@ https://kr.mathworks.com/help/deeplearning/ug/solve-partial-differential-equatio
 Thang Le-Duc, Deep Learning Architecture Research Center, Sejong University, email: le.duc.thang0312@gmail.com; thangld@sju.ac.kr
 
 # Reference
-...
+Thang Le-Duc, Seunghye Lee, H. Nguyen-Xuan, and Jaehong Lee. "A hierarchically normalized physics-informed neural network for solving differential equations: application for solid mechanics problems." Engineering Applications of Artificial Intelligence (2024).
